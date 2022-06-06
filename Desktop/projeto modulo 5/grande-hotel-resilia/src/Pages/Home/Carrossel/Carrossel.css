@@ -1,0 +1,63 @@
+.carrossel{
+    width: 60%;
+    height: 500px;
+    background-color: black;
+    margin: 30px;
+}
+.carrosselInner{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.carrosselInner .left{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.197);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+
+}
+.carrosselInner .center{
+    flex: 90%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: justify;
+    align-items: flex-end;
+
+}
+/* .txtCarrosel{
+    font-size: 20px;
+    background-color: rgb(255,255, 255,0.8);
+    padding: 10px;
+    border-radius: 9px;
+
+} */
+
+.subTxtCarrossel{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.105);
+    width: 100%;
+    border-radius: 9px;
+    
+}
+.carrosselInner .right{
+    flex: 5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.197);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width:700px){
+    .carrossel{
+        width: 90%;
+    }
+}

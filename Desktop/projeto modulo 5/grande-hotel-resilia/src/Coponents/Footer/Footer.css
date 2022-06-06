@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.rodape{
+    clear: both;
+    padding-top: 20px;
+    background-color: white;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+.logo1{
+    background-color: white;
+}
+.logo-footer{
+    width: 300px;
+}
+.reserve-aqui{
+    text-align: center;
+    color: gray;
+    line-height:40px;
+    font-size: 18px;
+    list-style: none;
+    
+}
+
+.botao-reserva{
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 5px;
+    font-size: 10px;
+   text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px gray;
+}
+.botao-link{
+    font-size: 18px;
+    color: grey;
+    text-decoration: none;
+
+}
+.botao-link:hover{
+opacity: 0.8;
+}
+.social{
+margin: 5px;
+}
+.social:hover{
+    opacity: 0.8;
+}
+@media (max-width:700px){
+    .rodape{
+    flex-direction: column; 
+    width: 100%;
+    height: auto;       
+    justify-content: center;
+    }
+    .logo1{
+        display: flex;
+        justify-content: center;
+    }
+    .rede-social{
+        display: flex;
+        justify-content: center;
+    }
+}

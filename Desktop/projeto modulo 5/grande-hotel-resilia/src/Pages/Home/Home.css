@@ -1,0 +1,120 @@
+@font-face{
+    font-family: 'Montserrat', sans-serif;
+    src: url('../../Assets/Fonts/Montserrat-Italic-VariableFont_wght.ttf')
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 200px;
+}
+.sessao-hotel{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.div-carrossel{
+    display: flex;
+    flex-direction: row;
+}
+.titulo-hotel{
+    text-align: center;
+    margin: 10px;
+    font-family: 'Montserrat';
+    font-size: 90px;
+    font-weight: 100;
+    color: #E58E1A;
+}
+.txt-carrossel{
+    text-align: left;
+    width: 30%;
+    height: 500px;
+    margin: 30px;
+    word-wrap: break-word;
+}
+.sessao-acomodacao{
+    background-color: rgba(128, 128, 128, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    padding-bottom: 80px;
+}
+.acomodacoes{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+.txt-acomodacoes{
+   
+    font-family: 'Montserrat';
+    font-size: 50px;
+    margin: 30px;
+    color: #E58E1A;
+    font-weight: 100;
+}
+.container-suite{
+    width: 32%;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+.suite {
+    text-align: center;
+    width: 100%;
+    height:auto;
+    text-align: center;
+    }
+    
+.txtImg{
+   
+   text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: white;
+}
+.txtImg1{
+    position: absolute;
+    left: 30%;
+    top: 85%;
+    bottom: 0;
+}
+.txtImg:hover{
+    opacity: 0.8;
+}
+.sessao-mapa{
+    text-align: center;
+}
+.mapa{
+    width: 95%;
+   height:500px;
+    border:0;
+    margin: 30px;
+}
+@media (max-width:700px){
+    .div-carrossel{
+        flex-direction: column;
+    }
+    .txt-carrossel{
+        width: 90%;
+    }
+    .sessao-acomodacao{
+        text-align: center;
+    }
+    .acomodacoes{
+        flex-direction: column;
+        
+    }
+    .container-suite{
+        margin-bottom:50px;
+        width: 100%;
+    }
+ 
+    
+}
